@@ -1,6 +1,10 @@
 {
   "name": "api_scr",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.8.0",
+    "npm":"8.19.2"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
