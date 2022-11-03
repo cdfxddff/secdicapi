@@ -14,4 +14,4 @@ app.post('/',async function(req,res){
     res.json(wm)
 })
 
-var listener = app.listen(3000);
+var listener = app.listen(process.env.PORT || 8000);
